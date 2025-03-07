@@ -1,0 +1,29 @@
+.footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .footer__text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .footer__copyright p {
+    font-size: 0.9rem;
+  }
+  
+  .link-github {
+    color: #bb86fc;
+    transition: color 0.3s ease;
+  }
+  
+  .link-github:hover {
+    color: #e0e0e0;
+  }
+  

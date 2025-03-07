@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    /* Mostrar el toggle en el nav y ocultar el menú principal */
+    .nav__menu {
+      display: none;
+    }
+    .nav__toggle {
+      display: block;
+    }
+    
+    /* Ajustar la grilla de la clase h-grid a una sola columna */
+    .h-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    /* Reducir el tamaño de la tipografía en la sección home */
+    .home__title {
+      font-size: 2rem;
+    }
+    
+    /* En la sección about, alinear el contenido en columna */
+    .about__container {
+      flex-direction: column;
+    }
+    
+    /* Reducir el número de columnas en la grilla de proyectos */
+    .projects__container {
+      grid-template-columns: 1fr;
+    }
+    
+    /* En skills, mostrar los elementos en columna si es necesario */
+    .skills__names {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
